@@ -148,6 +148,7 @@ When a chat is transferred, the chat returned back to the original skill/agent r
 ### Cause: 
 
 Transfer-to-agent returns chats to the origin after about 4 minutes, if no other agent has taken the chat. However, transfer-to-skill does not return to the origin.
+If "ACD Advanced Mode" is chosen in the Queue Options configuration and Agent Status is set to "change to Away", the agent who didn't take the chat will be set to Away status.
 
 ### Solution:
 
